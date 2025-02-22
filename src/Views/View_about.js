@@ -2,13 +2,13 @@ import React from 'react'
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Header from './Header';
-import Footer from './Footer';
+import Header from '../pages/Header';
+import Footer from '../pages/Footer';
 
-const Aboutus = () => {
+const View_aboutus = () => {
   return (
     <>
-   
+   <Header/>
     <h1 className="page-heading">About us</h1>
       <Container className="aboutus">
         <Row>
@@ -60,9 +60,10 @@ const Aboutus = () => {
           </Col>
         </Row>
       </Container>
+      <Footer/>
    
       </>
   )
 }
 
-export default Aboutus
+export default View_aboutus

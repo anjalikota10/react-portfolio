@@ -3,13 +3,13 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
-import Header from './Header';
-import Footer from './Footer';
+import Header from '../pages/Header';
+import Footer from '../pages/Footer';
 
-const Qualification = () => {
+const View_qualification = () => {
   return (
     <>
-   
+    <Header/>
     <h1 className="page-heading">Qualifications</h1>
       <Container style={{marginTop:"50px"}}>
         <Row>
@@ -55,9 +55,9 @@ const Qualification = () => {
           
         </Row>
       </Container>
-     
+      <Footer/>
       </>
   )
 }
 
-export default Qualification
+export default View_qualification

@@ -3,13 +3,13 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
-import Header from './Header';
-import Footer from './Footer';
+import Header from '../pages/Header';
+import Footer from '../pages/Footer';
 
-const Projects = () => {
+const View_projects = () => {
   return (
     <>
-  
+    <Header/>
      <h1 className="page-heading">Projects</h1>
 
 <Container style={{marginTop:"50px"}}>
@@ -64,9 +64,9 @@ const Projects = () => {
     
   </Row>
 </Container>
-
+<Footer/>
 </>
   )
 }
 
-export default Projects;
+export default View_projects;

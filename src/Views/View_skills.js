@@ -3,13 +3,13 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import ProgressBar from 'react-bootstrap/ProgressBar';
 import Container from "react-bootstrap/Container";
-import Footer from "./Footer";
-import Header from "./Header";
+import Footer from '../pages/Footer';
+import Header from '../pages/Header';
 
-const Skills = () => {
+const View_skills = () => {
   return (
    <>
-  
+   <Header/>
    <h1 className="page-heading">Skills</h1>
 
 <Container>
@@ -27,9 +27,9 @@ const Skills = () => {
   </Row>
 
 </Container>
-
+<Footer/>
    </>
   )
 }
 
-export default Skills
+export default View_skills;
